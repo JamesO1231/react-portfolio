@@ -17,15 +17,15 @@ export default function SimpleContainer() {
             My name is James Odell, and I am a Full Stack Developer. I attended the University of Denver's Coding Bootcamp and I am proficient in the languages below. 
         </p>
         <div className="row" spacing={1}>
-            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={react} height="60px" width="60px"/></div>
-            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={mongo} height="60px" width="60px"/></div>
-            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={mysql} height="60px" width="60px"/></div>
-            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={github} height="60px" width="60px"/></div>
-            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={jquery} height="60px" width="60px"/></div>
-            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={node} height="60px" width="60px"/></div>
-            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={bootstrap} height="60px" width="60px"/></div>
-            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={css} height="60px" width="60px"/></div>
-            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={javascript} height="60px" width="60px"/></div>
+            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={react} height="100px" width="100px"/></div>
+            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={mongo} height="100px" width="100px"/></div>
+            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={mysql} height="100px" width="100px"/></div>
+            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={github} height="100px" width="100px"/></div>
+            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={jquery} height="100px" width="100px"/></div>
+            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={node} height="100px" width="100px"/></div>
+            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={bootstrap} height="100px" width="100px"/></div>
+            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={css} height="100px" width="100px"/></div>
+            <div className="col-4"><img className="bg-white p-1 m-1 transform" src={javascript} height="100px" width="100px"/></div>
         </div>
     </div>
   );

@@ -27,6 +27,8 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   appBar: {
+    background: 'black',
+    color: 'white',
     transition: theme.transitions.create(['margin', 'width'], {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
@@ -95,8 +97,8 @@ export default function PersistentDrawerRight() {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar
-        color='white'
+      <AppBar 
+        color= 'white'
         position="fixed"
         className={clsx(classes.appBar, {
           [classes.appBarShift]: open,
