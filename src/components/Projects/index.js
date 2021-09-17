@@ -9,6 +9,8 @@ import IconButton from '@material-ui/core/IconButton';
 import FavoriteBorderRounded from '@material-ui/icons/FavoriteBorderRounded';
 import LinkIcon from '@material-ui/icons/Link';
 import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid';
+import Link from '@material-ui/core/Link';
 import CardData from "./card.json"
 
 const useStyles = makeStyles({
@@ -18,13 +20,21 @@ const useStyles = makeStyles({
   media: {
     height: 140,
   },
+  discription: {
+    height: 80,
+  },
 });
 
 export default function MediaCard() {
   const classes = useStyles();
+console.log(CardData);
 
   return (
+    <Grid container spacing={4} justifyContent="space-evenly">
+      {
     CardData.map((props) => {
+      return (
+    <Grid item>
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
@@ -36,20 +46,22 @@ export default function MediaCard() {
           <Typography gutterBottom variant="h5" component="h2">
             {props.name}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography className={classes.discription}variant="body2" color="textSecondary" component="p">
             {props.discription}
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
       <IconButton>
+      <Link href={props.link}>
           <LinkIcon />
-        </IconButton>
-        <IconButton>
-          <FavoriteBorderRounded />
+          </Link>
         </IconButton>
       </CardActions>
     </Card>
-    })
+    </Grid>
+    )})
+    }</Grid>
   );
 }
+

@@ -97,7 +97,6 @@ export default function PersistentDrawerRight() {
     <div className={classes.root}>
       <CssBaseline />
       <AppBar 
-        color= 'white'
         position="fixed"
         className={clsx(classes.appBar, {
           [classes.appBarShift]: open,
@@ -108,7 +107,6 @@ export default function PersistentDrawerRight() {
             James Odell
           </Typography>
           <IconButton
-            color="black"
             aria-label="open drawer"
             edge="end"
             onClick={handleDrawerOpen}

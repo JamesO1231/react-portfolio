@@ -14,7 +14,14 @@ export default function SimpleContainer() {
   return (
     <div>
         <p>
-            My name is James Odell, and I am a Full Stack Developer. I attended the University of Denver's Coding Bootcamp and I am proficient in the languages below. 
+            My name is James Odell. I am a 33 year old male who was born and raised in Denver, Colorado. I
+            have had the opportunity of working in multiple industries throughout my professional career. My first
+            career was in the culinary arts as a chef. My second career has been in the Oil and Gas industry. I am
+            naturally a creative person. So, working in Oil and Gas has not been fulfilling for my creative side. I
+            would like to get back into an industry that can fulfill that creative desire of mine. I am currently
+            attending Denver Universities, Coding Bootcamp. Some of the project you will see on this page are from
+            my time in that Bootcamp program. I hope you enjoy my work and please feel free to contact me down
+            below. 
         </p>
         <div className="row" spacing={1}>
             <div className="col-4"><img className="bg-white p-1 m-1 transform" src={react} height="100px" width="100px"/></div>
