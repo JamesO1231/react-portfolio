@@ -1,4 +1,6 @@
 import React from 'react';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Container from '@material-ui/core/Container';
 import react from '../../images/react.png';
 import mongo from '../../images/mongo.png';
 import mysql from '../../images/mysql.png';
@@ -12,7 +14,10 @@ import { Divider } from '@material-ui/core';
 
 export default function SimpleContainer() {
   return (
-    <div>
+    <React.Fragment>
+      <CssBaseline />
+      <Container maxWidth='sm'>
+      <div>
         <p>
             My name is James Odell. I am a 33 year old male who was born and raised in Denver, Colorado. I
             have had the opportunity of working in multiple industries throughout my professional career. My first
@@ -34,6 +39,8 @@ export default function SimpleContainer() {
             <div className="col-4"><img className="bg-white p-1 m-1 transform" src={css} height="100px" width="100px"/></div>
             <div className="col-4"><img className="bg-white p-1 m-1 transform" src={javascript} height="100px" width="100px"/></div>
         </div>
-    </div>
+      </div>
+    </Container>
+    </React.Fragment>
   );
 }
