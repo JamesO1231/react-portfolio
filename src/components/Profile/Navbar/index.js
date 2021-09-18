@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(2),
   },
   title: {
+    color: "black",
     flexGrow: 1,
   },
 }));
@@ -27,7 +28,7 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             James Odell
           </Typography>
-          <Button color="inherit" href="./Profile">Projects/Profiles</Button>
+          <Button href="../Main" onClick="preventDefault">About/Contact</Button>
         </Toolbar>
       </AppBar>
     </div>
