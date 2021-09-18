@@ -27,7 +27,7 @@ export default function MediaCard() {
 console.log(CardData);
 
   return (
-    <Grid container spacing={1} justifyContent="center">
+    <Grid container spacing={2} justifyContent="center">
       {
     CardData.map((props) => {
       return (

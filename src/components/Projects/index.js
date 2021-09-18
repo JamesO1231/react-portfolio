@@ -42,7 +42,7 @@ console.log(CardData);
           title={props.name}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography variant="h5" component="h2">
             {props.name}
           </Typography>
           <Typography className={classes.discription}variant="body2" color="textSecondary" component="p">

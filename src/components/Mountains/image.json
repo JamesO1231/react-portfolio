@@ -1,0 +1,50 @@
+[
+    {
+      "img": "../../images/mountains1.png",
+      "title": "Mountains"
+    },
+    {
+      "img": "../../images/wedding.png",
+      "title": "Wedding"
+    },
+    {
+      "img": "../../images/mountains2.png",
+      "title": "Mountains"
+    },
+    {
+      "img": "../../images/clarence.jpg",
+      "title": "Clarence"
+    },
+    {
+      "img": "../../images/trail.jpg",
+      "title": "Hiking trail"
+    },
+    {
+      "img": "../../images/river.jpg",
+      "title": "River"
+    },
+    {
+      "img": "../../images/lake.jpg",
+      "title": "Lake"
+    },
+    {
+      "img": "../../images/feild.jpg",
+      "title": "Feild"
+    },
+    {
+      "img": "../../images/smiles.jpg",
+      "title": "Smiles"
+    },
+    {
+      "img": "../../images/castle.jpg",
+      "title": "Castle Rock"
+    },
+    {
+      "img": "../../images/fall.jpg",
+      "title": "Fall"
+    },
+    {
+      "img": "../../images/sanddunes.jpg",
+      "title": "Sand Dunes"
+    }
+]
