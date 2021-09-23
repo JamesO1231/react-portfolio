@@ -13,6 +13,9 @@ import Link from '@material-ui/core/Link';
 import CardData from "./card.json"
 
 const useStyles = makeStyles({
+  header: {
+    textDecoration: 'underline'
+  },
   root: {
     margin: 50,
     maxWidth: 345,
@@ -28,6 +31,8 @@ const useStyles = makeStyles({
 export default function MediaCard() {
   const classes = useStyles();
   return (
+    <>
+    <h2 className={classes.header}>Projects</h2>
     <Grid container spacing={4} justifyContent="space-evenly">
       {
     CardData.map((props) => {
@@ -60,6 +65,7 @@ export default function MediaCard() {
     </Grid>
     )})
     }</Grid>
+    </>
   );
 }
 

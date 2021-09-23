@@ -36,9 +36,8 @@ export default function SimpleContainer() {
             career was in the culinary arts as a sous chef. My second career has been in the Oil and Gas industry. I am
             naturally a creative person. So, working in Oil and Gas has not been fulfilling for my creative side. I
             would like to get back into an industry that can fulfill that creative desire of mine. I am currently
-            attending Denver University's, Coding Bootcamp. Some of the project you will see on this page are from
-            my time in that Bootcamp program. I hope you enjoy my work and please feel free to contact me down
-            below. 
+            attending Denver University's Coding Bootcamp. Some of the project you will see on this page are from
+            my time in that Bootcamp program. I hope you enjoy my work and please feel free to contact me on my contact page. 
         </p>
         <div className='row' padding={10} spacing={1}>
             <div className="col-4"><img className="bg-white p-1 m-1 transform" src={react} height="100px" width="100px"/></div>
