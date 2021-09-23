@@ -1,18 +1,15 @@
 import React from 'react';
-import '../../App.css';
+import './style.css';
 import Navbar from './Navbar';
 import Feedback from './Feedback';
 import Footer from './Footer';
 
-export default function Main() {
+export default function Contact() {
     return (
-        <>
-        <div className="Contact"></div>
-        <div>
+        <div className="Contact">
             <Navbar padding="20px"/>
             <Feedback/>
             <Footer/>
         </div>
-        </>
     )
 }

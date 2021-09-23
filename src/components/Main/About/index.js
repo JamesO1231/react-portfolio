@@ -14,10 +14,12 @@ import javascript from '../../../images/javascript.png';
 
 const useStyles = makeStyles({
   header: {
+    color: 'white',
     padding: 10,
     textDecoration: 'underline'
   },
   about: {
+    color: 'white',
     padding: 5,
   }
 });

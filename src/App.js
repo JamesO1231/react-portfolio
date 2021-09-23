@@ -6,13 +6,11 @@ import {Route} from 'react-router-dom'
 
 const App = () => {
   return (
-    <>
     <div className="App">
       <Route exact path='/' component={Main}/>
       <Route exact path='/Profile' component={Profile}/>
       <Route exact path='/Contact' component={Contact}/>
     </div>
-    </>
   )
 };
 
