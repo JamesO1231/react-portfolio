@@ -3,18 +3,21 @@
         "name": "Kitchen Forager",
         "image": "../images/kitchenForager.png",
         "discription": "Kitchen forager is an app that allows users to find recipes for ingrediants thay already have in there home.",
-        "link": "https://kitchenforager.herokuapp.com/"
+        "link": "https://kitchenforager.herokuapp.com/",
+        "github": "https://github.com/JamesO1231/kitchenForager"
     },
     {
         "name": "Choose Your Pokemon",
         "image": "../../images/chooseYourPokemon.png",
         "discription": "Choose your Pokemon is an app that allows an user to pick there favorite pokemon and get there stats. Or if you are new to Pokemon you can select one of the randomly generated Pokemon.",
-        "link": "https://jameso1231.github.io/Choose_Your_Pokemon/index.html"
+        "link": "https://jameso1231.github.io/Choose_Your_Pokemon/index.html",
+        "github": "https://github.com/JamesO1231/Choose_Your_Pokemon"
     },
     {
         "name": "Fitness Tracker",
         "image": "../../images/fitnessTracker.png",
         "discription": "Fitness Tracker is an app to help people keep track of there workouts. That way they can see progress from workout to workout.",
-        "link": "https://timetogetfit.herokuapp.com/"
+        "link": "https://timetogetfit.herokuapp.com/",
+        "github": "https://github.com/JamesO1231/Workout-Tracker"
     }
 ]

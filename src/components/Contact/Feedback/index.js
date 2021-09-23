@@ -6,8 +6,8 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 
 const useStyles = makeStyles({
   header:{
-    padding: 30,
-    justifyContent: 'center'
+    padding: 20,
+    textAlign: 'center'
   },
 });
 

@@ -7,12 +7,17 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import IconButton from '@material-ui/core/IconButton';
 import LinkIcon from '@material-ui/icons/Link';
+import GitHubIcon from '@material-ui/icons/GitHub';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
 import CardData from "./card.json"
 
 const useStyles = makeStyles({
+  header: {
+    padding: 20,
+    textDecoration: 'underline'
+  },
   root: {
     margin: 50,
     maxWidth: 345,
@@ -28,6 +33,8 @@ const useStyles = makeStyles({
 export default function MediaCard() {
   const classes = useStyles();
   return (
+    <>
+    <h3 className={classes.header}>Projects</h3>
     <Grid container spacing={4} justifyContent="space-evenly">
       {
     CardData.map((props) => {
@@ -54,11 +61,17 @@ export default function MediaCard() {
       <Link href={props.link} target="_blank">
           <LinkIcon />
           </Link>
-        </IconButton>
+      </IconButton>
+      <IconButton>
+      <Link href={props.github} target="_blank">
+          <GitHubIcon />
+          </Link>
+      </IconButton>
       </CardActions>
     </Card>
     </Grid>
     )})
     }</Grid>
+    </>
   );
 }

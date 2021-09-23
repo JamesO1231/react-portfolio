@@ -13,6 +13,10 @@ import Link from '@material-ui/core/Link';
 import CardData from "./card.json"
 
 const useStyles = makeStyles({
+  header: {
+    padding: 20,
+    textDecoration: 'underline'
+  },
   root: {
     margin: 50,
     height: 250,
@@ -26,6 +30,8 @@ const useStyles = makeStyles({
 export default function MediaCard() {
   const classes = useStyles();
   return (
+    <>
+    <h3 className={classes.header}>Profiles</h3>
     <Grid container spacing={2} justifyContent="center">
       {
     CardData.map((props) => {
@@ -58,5 +64,6 @@ export default function MediaCard() {
     </Grid>
     )})
     }</Grid>
+    </>
   );
 }
