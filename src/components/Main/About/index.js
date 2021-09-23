@@ -1,15 +1,15 @@
 import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
-import react from '../../images/react.png';
-import mongo from '../../images/mongo.png';
-import mysql from '../../images/mysql.png';
-import github from '../../images/github.png';
-import jquery from '../../images/jquery.png';
-import node from '../../images/node.png';
-import bootstrap from '../../images/bootstrap.png';
-import css from '../../images/css.png';
-import javascript from '../../images/javascript.png';
+import react from '../../../images/react.png';
+import mongo from '../../../images/mongo.png';
+import mysql from '../../../images/mysql.png';
+import github from '../../../images/github.png';
+import jquery from '../../../images/jquery.png';
+import node from '../../../images/node.png';
+import bootstrap from '../../../images/bootstrap.png';
+import css from '../../../images/css.png';
+import javascript from '../../../images/javascript.png';
 
 export default function SimpleContainer() {
   return (
