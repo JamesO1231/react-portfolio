@@ -10,7 +10,6 @@ import node from '../../images/node.png';
 import bootstrap from '../../images/bootstrap.png';
 import css from '../../images/css.png';
 import javascript from '../../images/javascript.png';
-import { Divider } from '@material-ui/core';
 
 export default function SimpleContainer() {
   return (
@@ -24,7 +23,7 @@ export default function SimpleContainer() {
             career was in the culinary arts as a chef. My second career has been in the Oil and Gas industry. I am
             naturally a creative person. So, working in Oil and Gas has not been fulfilling for my creative side. I
             would like to get back into an industry that can fulfill that creative desire of mine. I am currently
-            attending Denver Universities, Coding Bootcamp. Some of the project you will see on this page are from
+            attending Denver University's, Coding Bootcamp. Some of the project you will see on this page are from
             my time in that Bootcamp program. I hope you enjoy my work and please feel free to contact me down
             below. 
         </p>

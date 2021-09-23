@@ -8,6 +8,8 @@ import Profile from '../Profile';
 export default (
   <Route path="/" component={App}>
     <IndexRoute component={Main} />
-    <Route path="../Profile" component={Profile} />
+    <Route hraf="../Profile" component={Profile} />
+    <IndexRoute component={Profile} />
+    <Route hraf="../Main" component={Main} />
   </Route>
 );

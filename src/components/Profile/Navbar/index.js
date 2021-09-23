@@ -27,8 +27,8 @@ export default function ButtonAppBar() {
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
             James Odell
-          </Typography>
-          <Button href="../Main" onClick="preventDefault">About/Contact</Button>
+          </Typography> 
+            <Button href="../Main" onClick="preventDefault">About/Contact</Button>
         </Toolbar>
       </AppBar>
     </div>

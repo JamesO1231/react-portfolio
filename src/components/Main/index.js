@@ -3,6 +3,7 @@ import Navbar from '../Navbar';
 import Mountains from '../Mountains';
 import About from '../About';
 import Feedback from '../Feedback';
+import Footer from '../Footer';
 
 export default function Main() {
     return (
@@ -11,6 +12,7 @@ export default function Main() {
             <Mountains/>
             <About/>
             <Feedback/>
+            <Footer/>
         </div>
     )
 }
