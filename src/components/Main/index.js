@@ -11,7 +11,6 @@ export default function Main() {
             <Navbar padding="20px"/>
             <Mountains/>
             <About/>
-            <Feedback/>
             <Footer/>
         </div>
     )

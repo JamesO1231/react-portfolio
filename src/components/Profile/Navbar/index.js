@@ -1,36 +1,16 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
+import { Navbar, Container, Brand, Nav, Link } from 'react-bootstrap';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    color: "black",
-    flexGrow: 1,
-  },
-}));
-
-export default function ButtonAppBar() {
-  const classes = useStyles();
-
-  return (
-    <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6" className={classes.title}>
-            James Odell
-          </Typography> 
-            <Button href="../Main" onClick="preventDefault">About/Contact</Button>
-        </Toolbar>
-      </AppBar>
-    </div>
-  );
-}
+export default function Appbar () {
+  
+return (
+  <Navbar bg="dark" variant="dark">
+    <Container>
+    <Navbar.Brand href="/">James Odell</Navbar.Brand>
+    <Nav className="me-auto">
+      <Nav.Link href="../../Main">Home</Nav.Link>
+      <Nav.Link href="#features">Contact Me</Nav.Link>
+    </Nav>
+    </Container>
+  </Navbar>
+)};
