@@ -6,11 +6,14 @@ import Footer from './Footer';
 
 export default function Main() {
     return (
+        <>
+        <div className="Main"></div>
         <div>
             <Navbar padding="20px"/>
             <Mountains/>
             <About/>
             <Footer/>
         </div>
+        </>
     )
 }

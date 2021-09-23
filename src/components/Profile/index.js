@@ -6,11 +6,14 @@ import Footer from './Footer';
 
 export default function Profile() {
     return (
+        <>
+        <div className="profile"></div>
         <div>
             <Navbar padding="20px"/>
             <Projects/>
             <Profiles/>
             <Footer/>
         </div>
+        </>
     )
 }

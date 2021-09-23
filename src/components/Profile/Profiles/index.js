@@ -14,6 +14,7 @@ import CardData from "./card.json"
 
 const useStyles = makeStyles({
   root: {
+    margin: 50,
     height: 250,
     maxWidth: 345,
   },
@@ -24,8 +25,6 @@ const useStyles = makeStyles({
 
 export default function MediaCard() {
   const classes = useStyles();
-console.log(CardData);
-
   return (
     <Grid container spacing={2} justifyContent="center">
       {
@@ -50,7 +49,7 @@ console.log(CardData);
       </CardActionArea>
       <CardActions>
       <IconButton>
-      <Link href={props.link}>
+      <Link href={props.link} target="_blank">
           <LinkIcon />
         </Link>
         </IconButton>
