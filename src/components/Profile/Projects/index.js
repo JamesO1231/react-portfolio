@@ -16,6 +16,7 @@ import CardData from "./card.json"
 const useStyles = makeStyles({
   header: {
     color: 'white',
+    textAlign: 'center',
     padding: 20,
     textDecoration: 'underline'
   },

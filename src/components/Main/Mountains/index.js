@@ -4,8 +4,6 @@ import ImageListItem from '@material-ui/core/ImageListItem';
 import PictureData from './image.json'
 
 export default function StandardImageList() {
-  console.log(PictureData);
-  
   return (
     <ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={250}>
       {PictureData.map((props) => (

@@ -4,3 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.row {
+    display: flex;
+    margin-left: 120px;
+}

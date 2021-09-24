@@ -16,9 +16,7 @@ export default function ContactFrom () {
   return (
     <CssBaseline>
     <Container maxWidth='md'>
-      <div>
-        <h3 className={classes.header}>Please feel free to give me your feedback!</h3>
-      </div>
+      <h3 className={classes.header}>Please feel free to give me your feedback!</h3>
     <Form>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Name</Form.Label>
