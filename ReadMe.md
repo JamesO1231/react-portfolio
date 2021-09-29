@@ -43,7 +43,7 @@
 * MIT License
 
 ## App Link
-* [My Portfolio]()
+* [My Portfolio](https://jameso1231-portfolio.herokuapp.com/)
 
 ## Future Development
 * I would like to keep this an open ended page that I can change styling and other dynamic functionality.
@@ -51,6 +51,3 @@
 ## Questions
 * For additional help or questions about collaboration, please reach out to jpodell21@gmail.com
 * Follow me on Github at [JamesO1231](http://github.com/JamesO1231)
-
-## Deployment Image
-![Alt text](./)
