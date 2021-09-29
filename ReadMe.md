@@ -43,7 +43,7 @@
 * MIT License
 
 ## App Link
-* [My Portfolio](https://jameso1231.github.io/myPortfolio/index.html)
+* [My Portfolio]()
 
 ## Future Development
 * I would like to keep this an open ended page that I can change styling and other dynamic functionality.
