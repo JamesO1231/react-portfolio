@@ -26,7 +26,6 @@
 * mdbreact
 * material-ui
 
-
 ## Usage
 * You need to install the packages above to operate this code. 
 
